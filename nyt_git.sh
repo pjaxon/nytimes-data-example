@@ -2,7 +2,7 @@
 
 # purpose: populate postgresql with latest covid data from NYTimes repo. refresh git repo, ingest into postgres, transform columns to dates and ints
 
-# change director to where NYtimes repo has already been cloned
+# change directory to where NYtimes repo has already been cloned
 cd /var/covid/covid-19-data
 
 # refresh the nytime github repo
