@@ -8,3 +8,6 @@ This repo does not go into detail about how to setup all the dependencies, but h
 - /data/tmp directory must exist
 - NYtime repo should be cloned into "/var/covid" so that it exists at "/var/covid/covid-19-data/"
 - This repo should be cloned into "/var/covid" so that it exists at "/var/covid/nytimes-data-example/"
+
+
+After all dependencies are met, code can be run by "/var/covid/nytimes-data-example/nyt_git.sh" or by ./nyt_git.sh if you run it directly from the repo directory
