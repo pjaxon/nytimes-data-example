@@ -6,6 +6,8 @@ This repo does not go into detail about how to setup all the dependencies, but h
 - pyscopg2 required... "pip install pyscopg2 --user"  (or similar syntax)
 - pgfutter must exist as an executable at /etc/pgfutter/pgfutter
 - /data/tmp directory must exist
+- environmental variables for the $db_name, $db_host, $db_user must exist
+- .pgpass with credentials must exist at ~/.pgass
 - NYtime repo should be cloned into "/var/covid" so that it exists at "/var/covid/covid-19-data/"
 - This repo should be cloned into "/var/covid" so that it exists at "/var/covid/nytimes-data-example/"
 
