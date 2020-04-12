@@ -8,6 +8,7 @@ This repo does not go into detail about how to setup all the dependencies, but h
 - /data/tmp directory must exist
 - environmental variables for the $db_name, $db_host, $db_user must exist
 - .pgpass with credentials must exist at ~/.pgass
+- postgresql server must be available to deliver the data (either locally hosted or elsewhere)
 - NYtime repo should be cloned into "/var/covid" so that it exists at "/var/covid/covid-19-data/"
 - This repo should be cloned into "/var/covid" so that it exists at "/var/covid/nytimes-data-example/"
 
