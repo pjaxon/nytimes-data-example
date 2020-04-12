@@ -1,4 +1,3 @@
-TRUNCATE stage.nyt_us_states;
 UPDATE stage.nyt_us_counties SET cases = 0 WHERE cases = '';
 UPDATE stage.nyt_us_counties SET deaths = 0 WHERE deaths = '';
 UPDATE stage.nyt_us_counties SET fips = NULL WHERE fips = '';
