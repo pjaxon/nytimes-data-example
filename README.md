@@ -2,7 +2,7 @@
 Example code to share one way to consume NYTimes COVID data and refresh it on a schedule of your choosing using cron or other mechanism.
 
 This repo does not go into detail about how to setup all the dependencies, but here are some basics:
-- NYtimes repo (https://github.com/nytimes/covid-19-data) should already be cloned into "/var/covid" so that it exists at "/var/covid/covid-19-data/" It will refresh automatically with this code once in place.  future iterations of this code could initialize this and other dependencies
+- NYtimes repo (https://github.com/nytimes/covid-19-data) should already be cloned into "/var/covid" so that it exists at "/var/covid/covid-19-data/" It will refresh automatically when the code from this repo is installed, configured and successfully run.  future iterations of this code could initialize this and other dependencies
 - python 2.7 required, but could very easily use python 3+
 - pyscopg2 required... "pip install pyscopg2 --user"  (or similar syntax)
 - pgfutter must exist as an executable at /etc/pgfutter/pgfutter
